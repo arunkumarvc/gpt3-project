@@ -69,3 +69,19 @@ a {
     margin: 4rem 2rem;
   }
 }
+
+h1,
+h2,
+h3,
+p,
+input,
+img,
+a {
+  outline: 1px solid red;
+  outline-offset: -2px;
+}
+
+div {
+  outline: 1px solid aqua;
+  outline-offset: 2px;
+}
