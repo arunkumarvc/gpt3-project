@@ -70,22 +70,35 @@ a {
   }
 }
 
+/* For Layout reference */
+/* div {
+  outline: 2px outset cyan;
+  outline-offset: -1px;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-p,
-input,
-button,
-img,
-a {
-  outline: 1px solid red;
-  outline-offset: -2px;
+h6 {
+  outline: 1px outset red;
+  outline-offset: -8px;
 }
 
-div {
-  outline: 1px solid aqua;
-  outline-offset: 2px;
+p {
+  outline: 1px inset orange;
+  outline-offset: -8px;
 }
+
+a {
+  outline: 2px inset yellow;
+  outline-offset: -4px;
+}
+
+input,
+button,
+img {
+  outline: 1px solid magenta;
+  outline-offset: -4px;
+} */
